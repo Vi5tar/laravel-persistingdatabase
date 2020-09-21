@@ -12,10 +12,7 @@ trait PersistingDatabase {
         $this->setupDbIfNeeded();
     }
 
-    public function setupDb(): void
-    {
-        // override and setup db as needed for tests in test case.
-    }
+    abstract function setupDb(): void;
 
     /**
      * Setup database according to setupDb if needed.

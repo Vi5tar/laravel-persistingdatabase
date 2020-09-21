@@ -2,7 +2,7 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/vi5tar/laravel-persistingdatabase.svg?style=flat-square)](https://packagist.org/packages/vi5tar/laravel-persistingdatabase)
 [![MIT Licensed](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/vi5tar/laravel-persistingdatabase/PHP%20Composer?label=tests)](https://github.com/vi5tar/laravel-persistingdatabase/actions)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/vi5tar/laravel-persistingdatabase/PHP%20Composer?label=build/tests)](https://github.com/vi5tar/laravel-persistingdatabase/actions)
 [![Total Downloads](https://img.shields.io/packagist/dt/vi5tar/laravel-persistingdatabase.svg?style=flat-square)](https://packagist.org/packages/vi5tar/laravel-persistingdatabase)
 
 This package provides a trait that can be used on a `Illuminate\Foundation\Testing\TestCase` to setup data

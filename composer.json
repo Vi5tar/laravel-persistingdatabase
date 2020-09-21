@@ -1,0 +1,21 @@
+{
+    "name": "vi5tar/laravel-persistingdatabase",
+    "description": "Sets up the database to persist throughout a test case.",
+    "homepage": "https://github.com/Vi5tar/laravel-persistingdatabase",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Travis Swiers",
+            "email": "tswiers@outreach.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        
+    },
+    "autoload": {
+        "psr-4": {
+            "Vi5tar": "src"
+        }
+    }
+}

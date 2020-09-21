@@ -1,0 +1,5 @@
+.phpunit.result.cache
+/tests/Reports
+/vendor
+composer.lock
+phpunit.xml.bak

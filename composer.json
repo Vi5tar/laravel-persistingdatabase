@@ -1,6 +1,6 @@
 {
     "name": "vi5tar/laravel-persistingdatabase",
-    "description": "Sets up the database to persist throughout a test case.",
+    "description": "Setup data to persist throughout a test case.",
     "homepage": "https://github.com/Vi5tar/laravel-persistingdatabase",
     "license": "MIT",
     "authors": [
@@ -11,11 +11,22 @@
         }
     ],
     "require": {
-        
+        "laravel/framework": "^6.0||^7.0||^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
     },
     "autoload": {
         "psr-4": {
             "Vi5tar\\": "src"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Vi5tar\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
     }
 }
